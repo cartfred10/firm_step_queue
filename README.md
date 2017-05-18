@@ -14,7 +14,8 @@ $insert = implode("','",$data);
 ```
 to convert array to string ready to be inserted into database...
 
-```php $insert = ("INSERT INTO queue (firstName, lastName,organization,type,service) VALUES ('{$insert}')");
+```php 
+$insert = ("INSERT INTO queue (firstName, lastName,organization,type,service) VALUES ('{$insert}')");
 ```
 
 Next I implemented the required error handing for data insertion and then the status of insertion and message call function...
